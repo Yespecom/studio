@@ -23,6 +23,11 @@ export const metadata: Metadata = {
   description:
     "Join innovative companies driving exponential growth. One intelligent platform for all your SaaS and AI needs.",
   generator: "Yesp Studio",
+  icons: {
+    icon: "/favicon.ico",
+    shortcut: "/favicon.ico",
+    apple: "/favicon.ico",
+  },
 }
 
 export default function RootLayout({
