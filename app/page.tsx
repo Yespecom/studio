@@ -16,7 +16,7 @@ export default function HomePage() {
       <header className="border-b border-gray-200 bg-white sticky top-0 z-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
           <div className="flex items-center space-x-2">
-            {/* <Image src="/yesp-logo.png" alt="Yesp Studio Logo" width={32} height={32} className="w-8 h-8" /> */}
+            <Image src="/yesp-logo.png" alt="Yesp Studio Logo" width={32} height={32} className="w-8 h-8" />
             <span className="text-xl font-normal text-gray-900">Yesp Studio</span>
             <Badge variant="secondary" className="ml-2 text-xs bg-gray-100 text-gray-700">
               Beta
@@ -47,12 +47,12 @@ export default function HomePage() {
             </Badge>
 
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-normal text-gray-900 text-balance leading-tight tracking-tight">
-              Join innovative companies driving <span className="text-blue-600">exponential growth</span>
+              Yesp Studio | Home of Yesp Corporation and Yesp Tech
             </h1>
 
             <p className="text-lg sm:text-xl text-gray-600 max-w-3xl mx-auto text-pretty leading-relaxed">
-              One intelligent platform for all your SaaS and AI needs. Yesp offers a unified suite of beta products for
-              workflow automation, lead generation, community building, and intelligent AI agents.
+              Join innovative companies driving <span className="text-blue-600">exponential growth</span>. One
+              intelligent platform for all your SaaS and AI needs from Yesp Corporation and Yesp Tech.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center pt-6">
@@ -76,6 +76,38 @@ export default function HomePage() {
 
             <div className="pt-6 text-sm text-gray-500">
               <p>✨ No credit card required • Early access to cutting-edge tools</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="py-16 px-4 bg-gray-50">
+        <div className="max-w-6xl mx-auto">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl sm:text-4xl font-normal text-gray-900 mb-4">Our Brands</h2>
+            <p className="text-gray-600 text-lg">Three brands, one unified platform</p>
+          </div>
+
+          <div className="grid md:grid-cols-3 gap-8">
+            <div className="text-center p-8 bg-white rounded-lg border border-gray-200 shadow-sm">
+              <h3 className="text-xl font-normal text-gray-900 mb-3">About Yesp Studio</h3>
+              <p className="text-gray-600 leading-relaxed">
+                The unified platform bringing together all Yesp innovations under one roof for seamless business growth.
+              </p>
+            </div>
+
+            <div className="text-center p-8 bg-white rounded-lg border border-gray-200 shadow-sm">
+              <h3 className="text-xl font-normal text-gray-900 mb-3">About Yesp Corporation</h3>
+              <p className="text-gray-600 leading-relaxed">
+                Enterprise-grade SaaS solutions and business automation tools designed for scaling organizations.
+              </p>
+            </div>
+
+            <div className="text-center p-8 bg-white rounded-lg border border-gray-200 shadow-sm">
+              <h3 className="text-xl font-normal text-gray-900 mb-3">About Yesp Tech</h3>
+              <p className="text-gray-600 leading-relaxed">
+                Cutting-edge AI technology and intelligent automation systems powering the future of business.
+              </p>
             </div>
           </div>
         </div>
@@ -135,7 +167,7 @@ export default function HomePage() {
                   <div className="aspect-video bg-gradient-to-br from-blue-50 to-blue-100 rounded-xl border border-gray-200 flex items-center justify-center">
                     <div className="text-center space-y-2">
                       <Workflow className="w-16 h-16 text-blue-600 mx-auto" />
-                  
+                      <p className="text-gray-600">Product Demo</p>
                     </div>
                   </div>
                 </div>
@@ -195,7 +227,7 @@ export default function HomePage() {
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
             <div className="space-y-4">
               <div className="flex items-center space-x-2">
-                {/* <Image src="/yesp-logo.png" alt="Yesp Studio Logo" width={32} height={32} className="w-8 h-8" /> */}
+                <Image src="/yesp-logo.png" alt="Yesp Studio Logo" width={32} height={32} className="w-8 h-8" />
                 <span className="text-lg font-normal text-gray-900">Yesp Studio</span>
               </div>
               <p className="text-sm text-gray-600">About Yesp Corporation – Business growth SaaS in beta</p>
