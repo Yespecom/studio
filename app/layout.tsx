@@ -19,9 +19,9 @@ const roboto = Roboto({
 })
 
 export const metadata: Metadata = {
-  title: "Yesp Studio - Premium SaaS + AI Platform",
+  title: "Yesp Studio | Yesp Corporation & Yesp Tech – Official Website",
   description:
-    "Join innovative companies driving exponential growth. One intelligent platform for all your SaaS and AI needs.",
+    "Yesp Studio is the official home of Yesp Corporation and Yesp Tech. Explore our services, innovations, and solutions under one unified brand.",
   generator: "Yesp Studio",
   icons: {
     icon: "/favicon.ico",
@@ -37,6 +37,26 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Organization",
+              name: "Yesp Studio",
+              alternateName: ["Yesp Corporation", "Yesp Tech"],
+              url: "https://yespstudio.com",
+              logo: "https://yespstudio.com/yesp-logo.png",
+              sameAs: [
+                "https://www.linkedin.com/company/yespstudio",
+                "https://www.facebook.com/yespstudio",
+                "https://twitter.com/yespstudio",
+              ],
+            }),
+          }}
+        />
+      </head>
       <body className={`font-sans ${inter.variable} ${roboto.variable}`}>
         <Suspense fallback={null}>{children}</Suspense>
         <Analytics />
