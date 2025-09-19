@@ -16,7 +16,7 @@ export default function HomePage() {
       <header className="border-b border-gray-200 bg-white sticky top-0 z-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
           <div className="flex items-center space-x-2">
-            <Image src="/yesp-logo.png" alt="Yesp Studio Logo" width={32} height={32} className="w-8 h-8" />
+          
             <span className="text-xl font-normal text-gray-900">Yesp Studio</span>
             <Badge variant="secondary" className="ml-2 text-xs bg-gray-100 text-gray-700">
               Beta
@@ -227,7 +227,7 @@ export default function HomePage() {
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
             <div className="space-y-4">
               <div className="flex items-center space-x-2">
-                <Image src="/yesp-logo.png" alt="Yesp Studio Logo" width={32} height={32} className="w-8 h-8" />
+            
                 <span className="text-lg font-normal text-gray-900">Yesp Studio</span>
               </div>
               <p className="text-sm text-gray-600">About Yesp Corporation – Business growth SaaS in beta</p>
